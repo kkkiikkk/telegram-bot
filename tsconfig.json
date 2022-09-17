@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "build",
+        "rootDirs": [
+            "src",
+            "test"
+        ],
+        "allowJs": false,
+        "target": "es6",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "baseUrl": "./src",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["node_modules"],
+    "ts-node": {
+        "swc": true
+    }
+}
