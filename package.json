@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc & node build/main.js",
+    "build": "tsc",
     "start": "node-dev src/main.ts"
   },
   "keywords": [],
@@ -23,8 +23,11 @@
   },
   "dependencies": {
     "@types/dotenv": "^8.2.0",
+    "@types/node-cron": "^3.0.4",
+    "axios": "^0.27.2",
     "dotenv": "^16.0.2",
     "mongoose": "^6.6.1",
+    "node-cron": "^3.0.2",
     "ts-node": "^10.9.1"
   }
 }
